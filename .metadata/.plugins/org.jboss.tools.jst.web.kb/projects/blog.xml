@@ -119,7 +119,6 @@
   <path value="C:/Users/Sandro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el/>
  </validation>
  <aliases/>
