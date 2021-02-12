@@ -14,6 +14,7 @@
 		<!-- As a link -->
 		<nav class="navbar navbar-light bg-light">
 			<span class="navbar-brand mb-0 h1" style="font-weight: bold;">Meu blog</span>
+			<a href="/newpost" class="btn btn-primary" role="button">Nova Postagem</a>
 		</nav>
 
 	</header>
@@ -22,6 +23,7 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb" style="background-color: white; padding-left: 0px;"> 
 					<li class="breadcrumb-item active" aria-current="page">Postagens</li>
+					
 				</ol>
 			</nav>
 			<div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
