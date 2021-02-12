@@ -2867,3 +2867,1222 @@ java.lang.IllegalStateException: Required class information is missing
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:02:13.679
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:02:13.739
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:02:13.739
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:32:11.257
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:32:11.282
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:32:11.282
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:38:01.445
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:38:01.533
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:38:01.533
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:39:17.642
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:39:17.665
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:39:17.665
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:40:18.305
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:40:18.328
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:40:18.328
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:40:25.100
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:40:25.126
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:40:25.126
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:41:36.799
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:41:36.819
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:41:36.819
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:42:53.515
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:42:53.538
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:42:53.538
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 21:43:55.608
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 21:43:55.693
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 21:43:55.693
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:03:06.760
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:03:06.819
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:03:06.819
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:05:01.738
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:05:01.757
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:05:01.757
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:08:00.629
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:08:00.649
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:08:00.649
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:08:15.372
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:08:15.449
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:08:15.449
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:10:40.295
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:10:40.313
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:10:40.313
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:14:59.111
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:14:59.136
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:14:59.136
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:15:28.119
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-02-11 22:15:28.144
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1976)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:15:28.161
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:15:28.161
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:15:32.488
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:15:32.511
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:15:32.511
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:15:59.288
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:15:59.308
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:15:59.308
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:16:23.736
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:16:23.760
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:16:23.760
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-11 22:16:30.427
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2021-02-11 22:16:30.451
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jboss.tools.cdi.core 4 75 2021-02-11 22:16:30.451
+!MESSAGE Errors running builder 'CDI (Contexts and Dependency Injection) Builder' on project 'blog'.
+!STACK 0
+java.lang.IllegalStateException: Required class information is missing
+	at org.jboss.jandex.Indexer.rebuildNestedType(Indexer.java:791)
+	at org.jboss.jandex.Indexer.resolveTypePath(Indexer.java:651)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotation(Indexer.java:570)
+	at org.jboss.jandex.Indexer.resolveTypeAnnotations(Indexer.java:478)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1458)
+	at org.jboss.tools.common.core.jandex.JandexUtil.createJarIndex(JandexUtil.java:56)
+	at org.jboss.tools.common.core.jandex.JandexUtil.hasAnnotation(JandexUtil.java:104)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.hasAnnotatedBeans(BeanArchiveDetector.java:276)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.BeanArchiveDetector.resolve(BeanArchiveDetector.java:203)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.detectBeanModule(ClassPathMonitor.java:150)
+	at org.jboss.tools.cdi.internal.core.scanner.lib.ClassPathMonitor.process(ClassPathMonitor.java:106)
+	at org.jboss.tools.cdi.core.CDICoreBuilder.build(CDICoreBuilder.java:215)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

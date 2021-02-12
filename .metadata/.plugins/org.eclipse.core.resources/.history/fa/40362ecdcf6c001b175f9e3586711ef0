@@ -1,0 +1,46 @@
+package com.spring.blog.utils;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.spring.blog.model.Post;
+import com.spring.blog.repository.CodeblogRepository;
+
+
+public class DummyData {
+
+	@Autowired
+	CodeblogRepository codeblogRepository;
+	
+	@PostConstruct
+	private void savePost() {
+		
+		List<Post> postList = new ArrayList<>();
+		
+		Post post3 = new Post();
+		post3.setAutor("Jeferson Fernando");
+		post3.setData(LocalDate.now());
+		post3.setTitulo("Docker");
+		post3.setTexto("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.");
+		
+		Post post2 = new Post();
+		post2.setAutor("Pablo Dall'Oglio");
+		post2.setData(LocalDate.now());
+		post2.setTitulo("PHP");
+		post2.setTexto("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.");
+		
+		postList.add(post3);
+		postList.add(post2);
+		
+		for(Post post: postList) {
+			Post postSaved = codeblogRepository.save(post);
+			System.out.println(postSaved.getId());
+		}
+	}
+}
