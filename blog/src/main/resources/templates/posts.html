@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<html lang="pt-br"
+xmlns="http://www.w3.org/199/xhtml"
+xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Meu blog</title>
 <!-- Css -->
+<link href="">
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
 	integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
@@ -18,20 +21,19 @@
 		</nav>
 
 	</header>
-	<section>
+	<section style="background-color: #0066cc">
 		<div class="container" style="width: 60%; padding-bottom: 30px;">
 			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb" style="background-color: white; padding-left: 0px;"> 
-					<li class="breadcrumb-item active" aria-current="page">Postagens</li>
-					
+				<ol class="breadcrumb" style="margin-top: 4px; background-color: #f8f7f7; padding-left: 2px;"> 
+					<li class="breadcrumb-item  " aria-current="page"><b>Postagens</b></li>	
 				</ol>
 			</nav>
-			<div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
+			<div class="card shadow-sm rounded" style="background-color: #99e6ff; margin-top: 20px;" th:each="post : ${posts}">
 				<div class="card-body">
 					<p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
 						<span th:text="${post.autor}"></span>
 						<span th:text="${post.data}"></span>								
-					</p>	
+					</p>
 							
 					<a th:href="${(#mvc.url('CC#getPostDetalhes').arg(0, post.id)).build()}"><h4 class="card-title" style="font-weight: bold; color: black; padding-top: 5px;"><span th:text="${post.titulo}"></span></h4></a>
 				
