@@ -49,7 +49,7 @@
 						<input type="text" class="form-control" name="autor" placeholder="Autor * " >
 					</div>
 					
-					<textarea  id="summernote" class="form-control" name="texto" placeholder="Descrição * "></textarea>
+					<textarea  type="text"class="form-control" name="texto" placeholder="Descrição * "></textarea>
 					
 					<small class="form-text text-muted">(*) Campos Obrigatórios</small>
 					
@@ -62,7 +62,7 @@
 	</section>
 	<script>
 		$('#summernote').summernote ({
-			placeholder: 'Descrição *',
+			placeholder: 'Texto *',
 			tabsize: 2,
 			height: 300
 		});

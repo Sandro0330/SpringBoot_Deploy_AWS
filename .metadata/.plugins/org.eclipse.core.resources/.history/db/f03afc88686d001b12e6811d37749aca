@@ -62,7 +62,7 @@
 	</section>
 	<script>
 		$('#summernote').summernote ({
-			placeholder: 'Descrição *',
+			placeholder: 'Texto *',
 			tabsize: 2,
 			height: 300
 		});

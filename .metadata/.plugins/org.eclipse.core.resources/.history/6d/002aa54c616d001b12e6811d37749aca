@@ -38,7 +38,7 @@
 					<span th:text="${post.data}" ></span>
 				</p>
 				<section>
-					<p class="card-text" style="margin-top: 40px;"><span th:text="${post.texto}" ></span></p>
+					<p class="card-text" style="margin-top: 40px;"><span th:utext="${post.texto}" ></span></p>
 				
 				</section>
 				
