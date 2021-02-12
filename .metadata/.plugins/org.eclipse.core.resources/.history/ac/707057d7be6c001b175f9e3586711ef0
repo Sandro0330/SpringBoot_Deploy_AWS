@@ -1,0 +1,5 @@
+package com.spring.blog.model.copy;
+
+public class Post {
+
+}
